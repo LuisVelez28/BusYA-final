@@ -1,0 +1,66 @@
+#Descripcion {
+	width: 80%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+}
+
+.valid-checks {
+	margin: 10px 0;
+	padding: 5px 5px;
+	background-color: white;
+	border-radius: 25px;
+	transition: .2 ease;
+	opacity: 1;
+}
+
+.valid-checks ul li {
+	position: relative;
+	font-size: 15px;
+	font-weight: 300;
+	margin: 8px 0;
+	color: black;
+	transition: .2s;
+}
+
+.valid-checks ul li i {
+	font-size: 20px;
+	margin-right: 8px;
+}
+
+.valid-checks ul li.checked {
+	color: green;
+	font-weight: 500;
+}
+
+.hide {
+	opacity: 0;
+}
+.card-body p-md-5 {
+	background-color: blue;
+}
+
+.custom-card {
+	background-color: #17212a;
+	border-radius: 25px;
+	border-color: #01c38d;
+	border-width: 4px; 
+	border-style: solid; 
+}
+
+.custom-card .text-white {
+	color: white;
+  }
+
+.vh-100 {
+	padding-top: 1%;
+	background-color: #eee;
+	height: 100vh!important;
+}
+.highlight-link {
+    color: #007bff; 
+    text-decoration: underline; 
+    cursor: pointer;
+}
